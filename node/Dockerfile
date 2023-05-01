@@ -1,6 +1,6 @@
 FROM jenkins/inbound-agent:alpine as jnlp
 
-FROM node:alpine
+FROM node:19.8.1-alpine
 
 RUN apk -U add openjdk11-jre git
 
